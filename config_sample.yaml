@@ -1,0 +1,28 @@
+logger:
+  log_folder: log
+  har_folder: har
+
+im_v2s:
+  log_name: log_imtest_v2s
+  cxdb_url: https://aomonitoringsg9.cinnox.com
+  cxwc_url: https://demo.cx.cinnox.com/?serviceName=aomonitoringsg9.cinnox.com
+  staff: rickchentest+m1@gmail.com
+  staff_name: monitor 1
+  password: m800!QAZ2wsx
+
+im_s2s:
+  log_name: log_imtest_s2s
+  cxdb_url: https://aomonitoringsg9.cinnox.com
+  staff1: rickchentest+m1@gmail.com
+  staff1_name: monitor 1
+  staff2: rickchentest+m2@gmail.com
+  staff2_name: monitor 2
+  password: m800!QAZ2wsx
+
+send_notification_rick:
+  edge_server: https://hkpd-ed-aws.cx.cinnox.com
+  service_id: internal.lc.m800.com
+  account: rickchen@m800.com
+  password: xxxxxxx
+  room_id: 2680b7a3-890e-44a0-9554-9f53507b1639@prod-hk-02@1
+  room_name: monitoring_messages
